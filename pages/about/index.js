@@ -1,8 +1,9 @@
 import PageContainer from 'components/PageContainer'
+import { Title } from 'components/Header'
 
 const About = () => (
-  <PageContainer>
-    <h1>About</h1>
+  <PageContainer headerContent={<Title>About</Title>}>
+    <p>This is the about page.</p>
   </PageContainer>
 );
 

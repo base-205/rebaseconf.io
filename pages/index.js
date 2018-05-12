@@ -3,7 +3,7 @@ import PageContainer from 'components/PageContainer';
 const Home = props => {
     return (
       <PageContainer>
-        <h1>Home</h1>
+        <p>This is the home page.</p>
       </PageContainer>
   );
 };

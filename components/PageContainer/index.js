@@ -1,12 +1,14 @@
-import NavBar from 'components/NavBar';
+import Header from 'components/Header';
 import Footer from 'components/Footer';
 
 import css from './styles.css';
 
-const PageContainer = ({ children }) => {
+const PageContainer = ({ headerContent, children }) => {
     return (
         <div className={css.pageContainer}>
-            <NavBar />
+            <Header>
+              {headerContent}
+            </Header>
             <div className={css.pageContent}>
               {children}
             </div>

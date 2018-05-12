@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,700|PT+Mono');
+
 /*---
 
 BOOTSTRAP BREAKPOINT RESPONSIVE TYPOGRAPHY
@@ -9,6 +11,7 @@ NEXT STEPS:
   - Apply vertical rhythm
 
 ---*/
+
 html {
   font-size: 16px;
 }
@@ -38,26 +41,35 @@ li {
 }
 
 h1, .h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
   font-size: 2.49em;
   line-height: 1.5em;
 }
 
 h2, .h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
   font-size: 2.07em;
   line-height: 1.5em;
 }
 
 h3, .h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
   font-size: 1.73em;
   line-height: 1.5em;
 }
 
 h4, .h4 {
+  font-family: 'PT Mono', monospace;
   font-size: 1.44em;
   line-height: 1.5em;
 }
 
 h5, .h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
   font-size: 1.2em;
   line-height: 1.5em;
 }

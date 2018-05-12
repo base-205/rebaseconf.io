@@ -1,0 +1,13 @@
+.header {
+   background: #FFF8B6;
+}
+
+.header-content {
+  overflow: auto;
+}
+
+.title {
+  color: #F8AA27;
+  text-align: center;
+  text-transform: uppercase;
+}

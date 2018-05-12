@@ -1,8 +1,9 @@
 import PageContainer from 'components/PageContainer'
+import { Title } from 'components/Header'
 
 const Travel = () => (
-  <PageContainer>
-    <h1>Travel</h1>
+  <PageContainer headerContent={<Title>Travel</Title>}>
+    <p>This is the sponsors page.</p>
   </PageContainer>
 );
 

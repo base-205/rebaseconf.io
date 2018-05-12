@@ -1,8 +1,9 @@
 import PageContainer from 'components/PageContainer'
+import { Title } from 'components/Header'
 
 const Sponsors = () => (
-  <PageContainer>
-    <h1>Sponsors</h1>
+  <PageContainer headerContent={<Title>Sponsors</Title>}>
+    <p>This is the sponsors page.</p>
   </PageContainer>
 );
 

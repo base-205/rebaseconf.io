@@ -16,16 +16,14 @@ class Footer extends Component {
           <TicketButton />
         </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "baseline", paddingLeft: "20px"}}>
-          <div style={{ justifyContent: "baseline"}}>
             <input type="text" name="email address" />
             <SignupButton />
-          </div>
-          <div style={{ float: "right" }}>
-            <FontAwesomeIcon style={{color: "#F8AA27"}} icon={["fab", "medium"]} />
-            <FontAwesomeIcon style={{color: "#F8AA27"}} icon={["fab", "twitter"]} />
-            <FontAwesomeIcon style={{color: "#F8AA27"}} icon={["fab", "instagram"]} />
-            <FontAwesomeIcon style={{color: "#F8AA27"}} icon={["fab", "facebook"]} />
-          </div>
+              <div style={{ float: "right" }}>
+                <FontAwesomeIcon style={{color: "#F8AA27"}} icon={["fab", "medium"]} />
+                <FontAwesomeIcon style={{color: "#F8AA27"}} icon={["fab", "twitter"]} />
+                <FontAwesomeIcon style={{color: "#F8AA27"}} icon={["fab", "instagram"]} />
+                <FontAwesomeIcon style={{color: "#F8AA27"}} icon={["fab", "facebook"]} />
+              </div>
           </div>
       </div>
 

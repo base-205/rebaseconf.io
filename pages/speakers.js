@@ -1,11 +1,11 @@
-import SpeakerHero from './speakers/speaker-hero';
-import SpeakerList from '../components/speaker-list';
+import SpeakerHero from '../components/SpeakerHero';
+import SpeakerList from '../components/SpeakerList';
 
-import SpeakersJSON from '/static/speakers.json';
+import speakerData from '../static/speakers.json';
 
 export default () => (
     <div>
-        <SpeakerHero speaker={SpeakersJSON.speakers[SpeakersJSON.highlightedSpeaker]} />
-        <SpeakerList speakers={SpeakersJSON.speakers} />
+        <SpeakerHero speaker={speakerData.speakers[speakerData.highlightedSpeaker]} />
+        <SpeakerList speakers={speakerData.speakers} />
     </div>
 );

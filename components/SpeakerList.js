@@ -1,4 +1,4 @@
-import SpeakerImage from '../speaker-image';
+import SpeakerImage from './SpeakerImage';
 
 const SpeakerList = ({speakers}) => (
     <div>

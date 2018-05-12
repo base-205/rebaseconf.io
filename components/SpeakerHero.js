@@ -1,4 +1,4 @@
-import SpeakerImage from '../../../components/speaker-image';
+import SpeakerImage from './SpeakerImage';
 
 const SpeakerHero = ({speaker}) => (
     <div>

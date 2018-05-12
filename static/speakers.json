@@ -6,7 +6,7 @@
         "title": "Title of the Talk Here",
         "track": "Frontend Track",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices tellus a tellus condimentum tristique. Proin enim dolor, condimentum sit amet rhoncus ac, semper quis dolor. Donec commodo posuere nisi vel congue. Integer mattis quis arcu nec ornare. Integer et pellentesque purus. Aenean pretium nisi libero, non sagittis libero eleifend sit amet. Nam facilisis metus a ex maximus molestie. Curabitur lobortis arcu quis pulvinar tincidunt.",
-        "image": "EthanMarcotte.jpg",
+        "image": "speaker-image.jpg",
         "isKeynote": true
     },
     {
@@ -16,7 +16,7 @@
         "title": "Title of the Talk Here",
         "track": "Frontend Track",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices tellus a tellus condimentum tristique. Proin enim dolor, condimentum sit amet rhoncus ac, semper quis dolor. Donec commodo posuere nisi vel congue. Integer mattis quis arcu nec ornare. Integer et pellentesque purus. Aenean pretium nisi libero, non sagittis libero eleifend sit amet. Nam facilisis metus a ex maximus molestie. Curabitur lobortis arcu quis pulvinar tincidunt.",
-        "image": "EthanMarcotte.jpg"
+        "image": "speaker-image.jpg"
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@
         "title": "Title of the Talk Here",
         "track": "Frontend Track",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices tellus a tellus condimentum tristique. Proin enim dolor, condimentum sit amet rhoncus ac, semper quis dolor. Donec commodo posuere nisi vel congue. Integer mattis quis arcu nec ornare. Integer et pellentesque purus. Aenean pretium nisi libero, non sagittis libero eleifend sit amet. Nam facilisis metus a ex maximus molestie. Curabitur lobortis arcu quis pulvinar tincidunt.",
-        "image": "EthanMarcotte.jpg"
+        "image": "speaker-image.jpg"
     },
     {
         "id": 4,
@@ -34,7 +34,7 @@
         "title": "Title of the Talk Here",
         "track": "Frontend Track",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices tellus a tellus condimentum tristique. Proin enim dolor, condimentum sit amet rhoncus ac, semper quis dolor. Donec commodo posuere nisi vel congue. Integer mattis quis arcu nec ornare. Integer et pellentesque purus. Aenean pretium nisi libero, non sagittis libero eleifend sit amet. Nam facilisis metus a ex maximus molestie. Curabitur lobortis arcu quis pulvinar tincidunt.",
-        "image": "EthanMarcotte.jpg"
+        "image": "speaker-image.jpg"
     },
     {
         "id": 5,
@@ -43,7 +43,7 @@
         "title": "Title of the Talk Here",
         "track": "Frontend Track",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices tellus a tellus condimentum tristique. Proin enim dolor, condimentum sit amet rhoncus ac, semper quis dolor. Donec commodo posuere nisi vel congue. Integer mattis quis arcu nec ornare. Integer et pellentesque purus. Aenean pretium nisi libero, non sagittis libero eleifend sit amet. Nam facilisis metus a ex maximus molestie. Curabitur lobortis arcu quis pulvinar tincidunt.",
-        "image": "EthanMarcotte.jpg"
+        "image": "speaker-image.jpg"
     },
     {
         "id": 6,
@@ -52,6 +52,6 @@
         "title": "Title of the Talk Here",
         "track": "Frontend Track",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices tellus a tellus condimentum tristique. Proin enim dolor, condimentum sit amet rhoncus ac, semper quis dolor. Donec commodo posuere nisi vel congue. Integer mattis quis arcu nec ornare. Integer et pellentesque purus. Aenean pretium nisi libero, non sagittis libero eleifend sit amet. Nam facilisis metus a ex maximus molestie. Curabitur lobortis arcu quis pulvinar tincidunt.",
-        "image": "EthanMarcotte.jpg"
+        "image": "speaker-image.jpg"
     }
 ]

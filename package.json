@@ -1,0 +1,26 @@
+{
+  "name": "rebaseconf.io",
+  "version": "1.0.0",
+  "description": "Website for re:BASE conference",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/base-205/rebaseconf.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/base-205/rebaseconf.io/issues"
+  },
+  "homepage": "https://github.com/base-205/rebaseconf.io#readme",
+  "dependencies": {
+    "next": "^6.0.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}

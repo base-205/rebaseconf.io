@@ -1,4 +1,9 @@
-.appContainer___3Kt8M {
+.navBarContainer___3DOgm{ 
+    height: 45px;
+    width: 100%;
+    padding: 0 71px 0 45px;
+    display: flex;
+}.appContainer___3Kt8M {
     height: 100%;
     width: 100%;
 }

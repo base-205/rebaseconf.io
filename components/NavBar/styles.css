@@ -1,15 +1,20 @@
 .navBarContainer{ 
-    height: 45px;
-    width: 100%;
-    padding: 0 71px 0 45px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
 }
 
 .fullLinks {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
 .fullLinks a {
-    display: inline-block;
+
+}
+
+.rebaseLogo {
+    fill: pink;
 }

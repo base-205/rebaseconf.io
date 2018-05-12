@@ -49,7 +49,7 @@ class NavBar extends Component {
         return (
             <div className={css.navBarContainer}>
                 <Link href="/">
-                  <img className={css.rebaseLogo} alt="rebase logo" src="/static/logo.png" />
+                  <img className={css.rebaseLogo} alt="rebase logo" src="/static/logo.svg" />
                 </Link>
                 <div className={css.fullLinks}>{linksRender}</div>
             </div>

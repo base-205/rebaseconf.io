@@ -1,7 +1,17 @@
 {
-    "hightlightedSpeaker": 0,
     "speakers": [
         {
+            "id": 1,
+            "name": "Ethan Marcotte",
+            "type": "Keynote Speaker",
+            "title": "Title of the Talk Here",
+            "track": "Frontend Track",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices tellus a tellus condimentum tristique. Proin enim dolor, condimentum sit amet rhoncus ac, semper quis dolor. Donec commodo posuere nisi vel congue. Integer mattis quis arcu nec ornare. Integer et pellentesque purus. Aenean pretium nisi libero, non sagittis libero eleifend sit amet. Nam facilisis metus a ex maximus molestie. Curabitur lobortis arcu quis pulvinar tincidunt.",
+            "image": "EthanMarcotte.jpg",
+            "isKeynote": true
+        },
+        {
+            "id": 2,
             "name": "Ethan Marcotte",
             "type": "Keynote Speaker",
             "title": "Title of the Talk Here",
@@ -10,6 +20,7 @@
             "image": "EthanMarcotte.jpg"
         },
         {
+            "id": 3,
             "name": "Ethan Marcotte",
             "type": "Keynote Speaker",
             "title": "Title of the Talk Here",
@@ -18,6 +29,7 @@
             "image": "EthanMarcotte.jpg"
         },
         {
+            "id": 4,
             "name": "Ethan Marcotte",
             "type": "Keynote Speaker",
             "title": "Title of the Talk Here",
@@ -26,6 +38,7 @@
             "image": "EthanMarcotte.jpg"
         },
         {
+            "id": 5,
             "name": "Ethan Marcotte",
             "type": "Keynote Speaker",
             "title": "Title of the Talk Here",
@@ -34,14 +47,7 @@
             "image": "EthanMarcotte.jpg"
         },
         {
-            "name": "Ethan Marcotte",
-            "type": "Keynote Speaker",
-            "title": "Title of the Talk Here",
-            "track": "Frontend Track",
-            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices tellus a tellus condimentum tristique. Proin enim dolor, condimentum sit amet rhoncus ac, semper quis dolor. Donec commodo posuere nisi vel congue. Integer mattis quis arcu nec ornare. Integer et pellentesque purus. Aenean pretium nisi libero, non sagittis libero eleifend sit amet. Nam facilisis metus a ex maximus molestie. Curabitur lobortis arcu quis pulvinar tincidunt.",
-            "image": "EthanMarcotte.jpg"
-        },
-        {
+            "id": 6,
             "name": "Ethan Marcotte",
             "type": "Keynote Speaker",
             "title": "Title of the Talk Here",

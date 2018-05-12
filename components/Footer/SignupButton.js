@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-
 class SignupButton extends Component {
-
-
-
   render () {
     return(
       <button style={{ backgroundColor:"#FAC55B" }}>
@@ -15,7 +11,6 @@ class SignupButton extends Component {
       </button>
     );
   };
-
 };
 
 export default SignupButton;

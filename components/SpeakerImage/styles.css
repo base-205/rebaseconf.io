@@ -1,8 +1,26 @@
-.speaker-image__image-wrap>img {
+.image {
     width: 100%;
 }
 
-.speaker-image__name {
+.name {
     position: absolute;
     padding: .5em;
+}
+
+.hero {
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.speakerPage {
+    width: calc(100%/4);
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.imageWrapper {
+    color: pink;
 }

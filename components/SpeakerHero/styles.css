@@ -1,11 +1,8 @@
-.speaker-hero {
+.wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.speaker-hero .speaker-image {
-    width: 40%;
-    margin: 0;
-    padding: 0;
-    position: relative;
+.content {
+    width: 60%;
 }

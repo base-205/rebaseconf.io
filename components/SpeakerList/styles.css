@@ -1,0 +1,4 @@
+.speakerList {
+    display: flex;
+    flex-wrap: wrap;
+}

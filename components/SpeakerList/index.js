@@ -1,12 +1,14 @@
 import SpeakerImage from 'components/SpeakerImage';
 
+import css from './styles.css';
+
 const SpeakerList = ({speakers}) => (
-    <div>
+    <div className={css.speakerList}>
         {speakers.map(s =>
             <SpeakerImage
                 key={s.id}
                 speaker={s}
-                layout="regular"
+                layout="speakerPage"
             />
         )}
     </div>

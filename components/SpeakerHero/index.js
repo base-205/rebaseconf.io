@@ -1,13 +1,15 @@
 import SpeakerImage from 'components/SpeakerImage';
 
+import css from './styles.css';
+
 const SpeakerHero = ({ speakers }) => {
     return speakers.map(speaker => (
-        <article className="speaker-hero" key={speaker.id}>
+        <article className={css.wrapper} key={speaker.id}>
             <SpeakerImage speaker={speaker} layout="hero" />
-            <section className="speaker-hero__content">
-                <h1 className="speaker-hero__title">{speaker.title}</h1>
-                <span className="speaker-hero__track">{speaker.track}</span>
-                <p className="speaker-hero__bio">{speaker.bio}</p>
+            <section className={css.content}>
+                <h1 className={css.title}>{speaker.title}</h1>
+                <span className={css.track}>{speaker.track}</span>
+                <p className={css.bio}>{speaker.bio}</p>
             </section>
         </article>
     ))

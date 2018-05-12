@@ -1,0 +1,8 @@
+.speaker-image__image-wrap>img {
+    width: 100%;
+}
+
+.speaker-image__name {
+    position: absolute;
+    padding: .5em;
+}

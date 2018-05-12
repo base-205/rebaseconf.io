@@ -4,3 +4,12 @@
     padding: 0 71px 0 45px;
     display: flex;
 }
+
+.fullLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullLinks a {
+    display: inline-block;
+}

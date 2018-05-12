@@ -1,13 +1,11 @@
-import NavBar from '../components/NavBar/NavBar';
+import PageContainer from '../components/PageContainer';
 
-import css from './main.css';
-
-const App = props => {
+const Home = props => {
     return (
-        <div className={css.appContainer}>
-            <NavBar />
-        </div>
-    );
+      <PageContainer>
+        <h1>Home</h1>
+      </PageContainer>
+  );
 };
 
-export default App;
+export default Home;

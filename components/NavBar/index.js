@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { Component } from 'react';
 
-import css from './NavBar.css';
+import css from './styles.css';
 
 class NavBar extends Component {
     state = {

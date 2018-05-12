@@ -25,9 +25,13 @@
     "@fortawesome/react-fontawesome": "0.0.19",
     "@zeit/next-css": "^0.2.0",
     "babel-plugin-module-resolver": "^3.1.1",
+    "classnames": "^2.2.5",
     "next": "^6.0.1",
     "normalize.css": "^8.0.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "prettier": "1.12.1"
   }
 }

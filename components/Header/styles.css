@@ -1,5 +1,8 @@
 .header {
-   background: #FFF8B6;
+   background-color: #FFF8B6;
+   background-image: url(/static/single_hero_bg.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .header-content {
@@ -10,5 +13,5 @@
   color: #F8AA27;
   text-align: center;
   text-transform: uppercase;
-  margin: 0;
+  margin: 2em;
 }

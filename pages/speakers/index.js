@@ -1,10 +1,10 @@
-import PageContainer from 'components/PageContainer'
-import { Title } from 'components/Header'
+import PageContainer from "components/PageContainer";
+import { Title } from "components/Header";
 
-const Travel = () => (
-  <PageContainer headerContent={<Title>Travel</Title>}>
-    <p>This is the travel page.</p>
+const Speakers = () => (
+  <PageContainer headerContent={<Title>Speakers</Title>}>
+    <p>This is the speakers page.</p>
   </PageContainer>
 );
 
-export default Travel;
+export default Speakers;

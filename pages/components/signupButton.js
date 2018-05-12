@@ -9,8 +9,8 @@ class SignupButton extends Component {
   render () {
     return(
       <button style={{ backgroundColor:"#FAC55B" }}>
-        <Link href="/tickets">
-          <a style={{ backgroundColor:"#FAC55B", textDecoration: "none", color: "#fff" }}>Sign Up</a>
+        <Link href="/signup">
+          <a style={{ backgroundColor:"#FAC55B", textDecoration: "none", color: "#fff" }}>Sign Up!</a>
         </Link>
       </button>
     );

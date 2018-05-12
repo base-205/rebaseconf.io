@@ -87,6 +87,7 @@ var _jsxFileName = "/Users/forrestcarter/projects/rebaseconf.io/pages/index.js";
 
 var App = function App(props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: __WEBPACK_IMPORTED_MODULE_1__main_css___default.a.appContainer,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4

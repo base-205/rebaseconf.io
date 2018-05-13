@@ -1,5 +1,5 @@
-import PageContainer from 'components/PageContainer'
-import { Title } from 'components/Header'
+import PageContainer from "components/PageContainer";
+import { Title } from "components/Header";
 
 const Sponsors = () => (
   <PageContainer headerContent={<Title>Sponsors</Title>}>

@@ -26,8 +26,10 @@ const links = [
   },
   {
     title: "Tickets",
-    link: "/tickets",
-    className: "tickets"
+    link:
+      "https://www.eventbrite.com/e/rebase-web-technology-conference-tickets-45706094158",
+    className: "tickets",
+    target: "_blank"
   }
 ];
 
@@ -41,7 +43,12 @@ class NavBar extends Component {
   renderLinks() {
     return links.map(link => {
       return (
-        <NavLink href={link.link} key={link.title} className={link.className}>
+        <NavLink
+          href={link.link}
+          key={link.title}
+          className={link.className}
+          target={link.target}
+        >
           {link.title}
         </NavLink>
       );

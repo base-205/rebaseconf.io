@@ -3,15 +3,18 @@ import Footer from 'components/Footer';
 
 import css from './styles.css';
 
-const PageContainer = ({ headerContent, children }) => {
+const PageContainer = ({ headerContent, layout, children }) => {
+
+    const contentClasses = (layout === "fixed") ? `${css.pageContent} ${css.fixed}` : `${css.pageContent}`;
+
     return (
         <div className={css.pageContainer}>
             <Header>
               {headerContent}
             </Header>
-            <div className={css.pageContent}>
+            <section className={contentClasses}>
               {children}
-            </div>
+            </section>
             <Footer />
         </div>
     );

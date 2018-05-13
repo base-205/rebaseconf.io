@@ -8,7 +8,7 @@ import speakerData from '../../static/speakers.json';
 const keynoteSpeakers = speakerData.filter(speaker => speaker.isKeynote)
 
 const Speakers = () => (
-  <PageContainer headerContent={<Title>Speakers</Title>}>
+  <PageContainer headerContent={<Title>Speakers</Title>} layout="fixed">
     <div>
       <SpeakerHero speakers={keynoteSpeakers} />
       <SpeakerList speakers={speakerData} />

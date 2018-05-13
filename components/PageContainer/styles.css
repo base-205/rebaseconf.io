@@ -4,5 +4,10 @@
 }
 
 .page-content {
-  margin: 2em 0;
+  padding: 3em 0;
+}
+
+.fixed {
+  width: 1170px;
+  margin: 0 auto;
 }

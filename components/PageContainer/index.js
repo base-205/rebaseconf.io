@@ -5,14 +5,13 @@ import css from './styles.css';
 
 const PageContainer = ({ headerContent, layout, children }) => {
 
-    const contentClasses = (layout === "fixed") ? `${css.pageContent} ${css.fixed}` : `${css.pageContent}`;
 
     return (
         <div className={css.pageContainer}>
-            <Header>
+            <Header layout={layout}>
               {headerContent}
             </Header>
-            <section className={contentClasses}>
+            <section className={`${css.pageContent} ${css[layout]}`}>
               {children}
             </section>
             <Footer />

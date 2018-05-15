@@ -15,3 +15,7 @@
   text-transform: uppercase;
   margin: 2em;
 }
+
+.header.home {
+  background-image: none;
+}

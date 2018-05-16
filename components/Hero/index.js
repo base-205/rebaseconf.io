@@ -16,20 +16,21 @@ class HeaderText extends Component {
         </div>
 
         <div className={css.textWrapper}>
-          <h2 className={css.heroTitle}>
-              <span className={css.wordFirst}>Web</span>
-              <span className={css.wordSecond}>technology</span>
-              <span className={css.wordThird}>conference</span>
-          </h2>
+          <div className={css.heroText}>
+            <h2 className={css.heroTitle}>
+                <span className={css.wordFirst}>Web</span>
+                <span className={css.wordSecond}>technology</span>
+                <span className={css.wordThird}>conference</span>
+            </h2>
 
-          <span className={css.heroDate}>9.20.18 - 9.21.18</span>
-          <span className={css.heroLocation}>Birmingham <span>Alabama</span></span>
-
-          <div className={css.heroButtons}>
-            <button className={css.buttonSubmitPaper}>Submit a paper</button>
-            <button className={css.buttonBuyTicket}>Blind bird tickets <strong>$75</strong></button>
+            <span className={css.heroDate}>9.20.18 - 9.21.18</span>
+            <span className={css.heroLocation}>Birmingham <span>Alabama</span></span>
           </div>
 
+          <div className={css.heroButtons}>
+            <a className={`${css.button} ${css.white}`} href="#">Submit a paper</a>
+            <a className={`${css.button} ${css.green}`} href="#">Blind bird tickets <strong>$75</strong></a>
+          </div>
         </div>
       </div>
     );
